@@ -1,0 +1,48 @@
+public void RegisterForm implements OracleUserDAO()
+{
+From RegisterFrom1=new From();
+UserDTO user=new UserDTO(String userAccount,String userPassword);
+userDao IUserDAO=new userDao()；
+boolean addUser(UserDTO user)
+{
+if(user.userAccount==userAccount&&user.userPassword==userPassword)
+return true;
+else return false;
+}
+}
+
+public void UserDTO (String userAccount,String userPassword)
+{
+
+String getUserAccount()
+{
+return UserAccount;
+}
+
+setUserAccount(String userAccount)
+{
+this.userAccount=userAccount;
+}
+
+String getUserPassword()
+{
+return userPassword;
+}
+
+setUserAccount(String userPassword)
+{
+this.userPassword=userPassword;
+}
+
+}
+
+interface IUserDAO
+{
+abstract addUser();
+}
+
+interface OracleUserDAO extends IUserD
+{
+abstract addUser();
+}
+
